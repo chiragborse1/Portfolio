@@ -1,6 +1,5 @@
 import React, { useEffect, useState, useCallback } from "react";
 import PropTypes from "prop-types";
-import SwipeableViews from "react-swipeable-views";
 import { useTheme } from "@mui/material/styles";
 import { projects as projectsData, certificates as certificatesData } from "../data/projects";
 import AppBar from "@mui/material/AppBar";
